@@ -3,7 +3,12 @@ import { Greeting } from './Greeting';
 
 const App = () => {
   return (
-    <Greeting />
+    <>
+      <Greeting name="Adv Cloud Class" />
+      <Greeting name="Bob" />
+      <Greeting name="Sam" />
+      <Greeting name="Billie" />
+    </>
   );
 }
 
